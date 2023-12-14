@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+/* header starts */
+header{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+}
+.nevbar ul{
+    list-style: none;
+}
+.nevbar ul li{
+    background-color:blueviolet;
+    max-height: 50px;
+    width: 200px;
+    border: 1px solid rgb(205, 185, 185);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+
+}
+.nevbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nevbar ul li:hover{
+    background-color: red;
+    transition: all ease-in .25s;
+}
+.nevbar ul ul{
+    display: none;
+}
+.nevbar ul li:hover > ul{
+    display: block;
+}
+/* header ends */
+
+/* form  part start */
+.form1{
+    border: 1px solid rgb(70, 67, 64);
+    width: 600px;
+    text-align: center;
+    margin: 30px auto;
+    height: 200px;
+    font-size: 30px;
+    background-color: rgb(149, 202, 202);
+    border-radius: 20px;
+    
+}
+.form1 button{
+    font-size: 15px;
+    padding: 3px;
+    margin: 10px;
+}
+/* form part ends */
+
+/* footer part starts */
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+}
+.name{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.details{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo{
+    margin: 5px;
+    font-size: 30px;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: black;
+}
